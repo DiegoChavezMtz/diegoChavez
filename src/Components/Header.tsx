@@ -58,7 +58,7 @@ const TypingContainer = styled.div`
         <HeaderContent>
           <Title>¡Hola, soy Diego!</Title>
           <TypingContainer>
-            <TypingEffect text={'Desarrollador Frontend'}/>
+            <TypingEffect text={'Desarrollador Web'}/>
           </TypingContainer>
           
         </HeaderContent>

@@ -42,7 +42,6 @@ margin: 10px 15px;
 color: #333;
 letter-spacing: -0.5px;
 animation: ${fadeIn} 1s ease-in-out;
-text-transform: uppercase;
 font-family: 'SF Pro Display', 'SF UI Display', sans-serif;
 `;
 
@@ -89,6 +88,7 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 &:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 
   &::after {
       content: "";
@@ -124,21 +124,27 @@ const ContainerSkills = styled.div`
         <Container>
             <Title>Sobre Mí</Title>
             <Description>
-                Soy un desarrollador frontend con una pasión inquieta por transformar ideas en experiencias digitales interactivas, funcionales y visualmente atractivas. Actualmente, formo parte del equipo de desarrollo en la Facultad de Ingeniería de la UNAM, donde he tenido la oportunidad de trabajar con tecnologías de vanguardia como JavaScript, React y Node.js, aplicándolas en proyectos que no solo resuelven problemas, sino que también inspiran.
+                Soy un desarrollador web con una pasión inquieta por transformar ideas en experiencias digitales interactivas, funcionales y visualmente atractivas. Actualmente, formo parte del equipo de desarrollo en la Facultad de Ingeniería de la UNAM, donde he tenido la oportunidad de trabajar con tecnologías como JavaScript, React y Node.js, aplicándolas en proyectos que buscan adaptarse a las nuevas necesidades de la comunidad universitaria.
             </Description>
         </Container>
-      
-      <Title>Mis Skills</Title>
-      <ContainerSkills>
-        <SkillsList>
-            <SkillItem >JavaScript </SkillItem>
-            <SkillItem>React</SkillItem>
-            <SkillItem>Next.js</SkillItem>
-            <SkillItem>Node.js</SkillItem>
-            <SkillItem>PHP</SkillItem>
-            <SkillItem>Wordpress</SkillItem>
-        </SkillsList>
-      </ContainerSkills>
+      <Container>
+            <Title>Mis habilidades</Title>
+            <ContainerSkills>
+                <SkillsList>
+                    <SkillItem>React</SkillItem>
+                    <SkillItem>Next.js</SkillItem>
+                    <SkillItem>Node.js</SkillItem>
+                    <SkillItem>PHP</SkillItem>
+                    <SkillItem >Typescript</SkillItem>
+                    <SkillItem>Wordpress</SkillItem>
+                </SkillsList>
+            </ContainerSkills>
+      </Container>
+      <Container>
+            <Title>Proceso de trabajo</Title>
+            <Description>Mi proceso de trabajo para entregar software de calidad comienza con una planificación detallada, donde analizo los requerimientos, defino objetivos y estructuro una estrategia eficiente. Durante el desarrollo, implemento soluciones optimizadas con tecnologías modernas, asegurando un código limpio, escalable y siguiendo buenas prácticas. Finalmente, en la etapa de despliegue, realizo pruebas en distintos entornos para garantizar un funcionamiento óptimo antes de su lanzamiento, asegurando así un producto final estable, intuitivo y de alto impacto.</Description>
+            
+      </Container>
       
     </AboutMeSection>
   );
