@@ -7,12 +7,12 @@ import Contact from './Components/Secctions/Contact';
 
 function App() {
 
-  const texts = [
-    '¡Hola, soy un desarrollador web!',
-    'Me apasiona crear experiencias digitales.',
-    '¿Quieres trabajar conmigo?',
-    '¡Hablemos sobre tu proyecto!',
-  ];
+  // const texts = [
+  //   '¡Hola, soy un desarrollador web!',
+  //   'Me apasiona crear experiencias digitales.',
+  //   '¿Quieres trabajar conmigo?',
+  //   '¡Hablemos sobre tu proyecto!',
+  // ];
 
   const MainContainer = styled.div`
     width : 100%;
