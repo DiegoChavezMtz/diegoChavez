@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import webDekids from './../../assets/img/webDekids.png'
 
 // Contenedor general del Portafolio
 const PortfolioSection = styled.section`
@@ -99,7 +100,7 @@ const ProjectCard = ({ title, description , link }: { title: string; description
 // Sección del Portafolio con los proyectos
 const Portfolio = () => {
   const projects = [
-    { title: "Web Dekids", description: "Construí el sitío web de Dekids usando Wordpress y su tienda en linea con Woocommerce" , link : "https://dekids.com.mx/" },
+    { title: "Web Dekids", description: "Construí el sitío web de Dekids usando Wordpress y su tienda en linea con Woocommerce" , link : "https://dekids.com.mx/" , img : '' },
     { title: "App Dekids", description: "Desarrollé un MVP de e-learning para Dekids" , link : "https://app.dekids.com.mx/"},
     { title: "Web CLS", description: "Actualicé y dí mantenimineto el sitio web de la Comisión Local de Seguridad" ,link : "http://www.administracion.ingenieria.unam.mx/CLS/" },
     { title: "Web Secretaria Administrativa", description: "Actualicé y dí mantenimineto el sitio web de la Secretaria Administrativa de la Facultad de Ingeniería" , link : "http://www.administracion.ingenieria.unam.mx/"},
